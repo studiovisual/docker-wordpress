@@ -1,3 +1,5 @@
+name: Cria imagem e envia ao Docker Hub
+
 on:
   push:
     branches:
