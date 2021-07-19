@@ -1,4 +1,4 @@
-FROM wordpress:php7.4-apache
+FROM wordpress:php7.3-apache
 
 RUN apt-get update -yqq && apt-get install mariadb-client wget curl nano -yqq
 
