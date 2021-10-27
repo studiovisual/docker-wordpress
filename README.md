@@ -1,6 +1,6 @@
 # Docker - WordPress - Studio Visual
 
-![PHP 7.x](https://github.com/studiovisual/docker-wordpress/workflows/Cria%20imagem%20e%20envia%20ao%20Docker%20Hub/badge.svg)
+![PHP 7.x](https://github.com/studiovisual/docker-wordpress/workflows/Cria%20imagem%20e%20envia%20ao%20Docker%20Hub/badge.svg?branch=php8.0-apache)
 
 Repositório oficial da imagem WordPress utilizada pela Studio Visual, [disponível no Docker Hub](https://hub.docker.com/repository/docker/studiovisualcombr/wordpress).
 
