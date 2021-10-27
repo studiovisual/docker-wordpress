@@ -25,5 +25,5 @@ para entender os termos da licença aplicados nessa imagem.
 
 ## Problemas encontrados
 
-Qualquer problema encontrado, abra uma [issue](https://github.com/studiovisual/docker-wordpress/issues).
+Qualquer problema encontrado, abra um [incindente](https://github.com/studiovisual/docker-wordpress/issues).
 
