@@ -1,6 +1,6 @@
 FROM wordpress:php7.4-apache
 
-RUN apt-get update -yqq && apt-get install mariadb-client wget curl nano -yqq
+RUN apt-get update -yqq && apt-get install mariadb-client wget curl nano -yqq && apt autoremove -y
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
