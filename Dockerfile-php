@@ -6,7 +6,7 @@ RUN apt-get update -y && apt-get install zlib1g-dev libpng-dev libjpeg-dev \
  libicu-dev libxml2-dev libc6-dev libfreetype6-dev mariadb-client -y && apt-get autoremove -y
 
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg && \
-    ocker-php-ext-configure intl && docker-php-ext-install dom
+   docker-php-ext-configure intl && docker-php-ext-install dom
 
 RUN mkdir -p /usr/src/php/ext/redis \
     && curl -L https://github.com/phpredis/phpredis/archive/$PHPREDIS_VERSION.tar.gz | tar xvz -C /usr/src/php/ext/redis --strip 1 \
