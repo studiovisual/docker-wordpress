@@ -25,14 +25,14 @@ jobs:
         shell: bash
         run: |
           php_version_from_branch=$(cut -d '-' -f 1 <<< "${GITHUB_REF#refs/heads/}")
-          echo "##[set-output name=branch;]$(echo php_version_from_branch)"
+          echo "##[set-output name=branch;]$(echo $php_version_from_branch)"
         id: php_version_from_branch
 
       - name: Extract Nginx version from branch
         shell: bash
         run: |
           nginx_version_from_branch=$(cut -d '-' -f 2- <<< "${GITHUB_REF#refs/heads/}")
-          echo "##[set-output name=branch;]$(echo nginx_version_from_branch)"
+          echo "##[set-output name=branch;]$(echo $nginx_version_from_branch)"
         id: nginx_version_from_branch
 
       - name: Build and push the PHP + Wordpress CLI image
